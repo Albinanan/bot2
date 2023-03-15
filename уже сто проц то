@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let brat = 0
+        let quest1 = prompt("Вы  пройдете тест?  1-да 2-нет 3-конечно 4-лан")
+        switch (quest1) {
+            case "1":
+                alert(':) ');
+                break;
+
+            case "2":
+                alert('нет = да');
+                break;
+
+            case "3":
+                alert('ок');
+                break;
+
+            case "4":
+                alert('лан');
+                break;
+
+            
+                
+        }
+        let quest2 = prompt("В каком году вышла первая серия смешариков? 1-2004  2-2003  3-2002  4-2005  5-2006")
+        switch (quest2) {
+            case "1":
+                alert('Супер!');
+                break;
+
+            case "2":
+                alert('хах, нет');
+                break;
+
+            case "3":
+                alert('позер');
+                break;
+
+            case "4":
+                alert('не праильно к сожалению ');
+                break;
+
+            case "5":
+                alert(':(');
+                break;
+
+           
+                
+        }
+        let quest3 = prompt("Сколько основных персонажей в мультике? 1-6 2-7 3-8 4-9 5-10")
+        switch (quest3) {
+            case "1":
+                alert('нет');
+                break;
+
+            case "2":
+                alert('лох');
+                break;
+
+            case "3":
+                alert('нет');
+                break;
+
+            case "4":
+                alert('ура победа');
+                brat += 1;
+                break;
+
+            case "5":
+                alert('печаль');
+                break;
+            
+                if (otvet3 == "4") {
+                    brat += 1
+                }
+        }
+        let quest4 = prompt("В какой серии появился Черный Ловелас? 1-Страшилка для Нюши 2-Новые зубы Кроша  3-Ежик в туманности  4-День рождения Нюши  5-Ляля")
+        switch (quest4) {
+            case "1":
+                alert("Ура! ");
+                break;
+
+            case "2":
+                alert('ну нет');
+                break;
+
+            case "3":
+                alert('хуево');
+                break;
+
+            case "4":
+                alert('не-а');
+                break;
+
+            case "5":
+                alert('поплачь');
+                break;
+
+            
+                }
+        
+        let quest5 = prompt("Кто спас Пина во 2-м эпизоде Космическая одиссея 1-Биби  2-Железная няня 3-Ежик  4-Крош 5-Нюша")
+        switch (quest5) {
+            case "1":
+                alert('Молодец');
+                break;
+
+case "2":
+                alert('нет');
+                break;
+
+            case "3":
+                alert('позер');
+                break;
+
+            case "4":
+                alert('лох');
+                break;
+
+            case "5":
+                alert('ты мне не нравишься');
+                break;
+
+            
+
+        }
+        let quest6 = prompt("В какой серии прозвучала песня От винта? 1-Вестибулярный аппарат 2- ОРЗ  3-Полеты во сне и наяву  4- Марафонец  5-не знаю ")
+        switch (quest6) {
+            case "1":
+                alert('нет');
+                break;
+
+            case "2":
+                alert('ну нет');
+                break;
+
+            case "3":
+                alert('Да! ');
+                break;
+
+            case "4":
+                alert('позер');
+                break;
+
+            case "5":
+                alert('как ты живешь? ');
+                break;
+                if (quest6 == "4") {
+                    brat += 1
+                }
+      default:
+                alert("Нет таких значений");
+        }
+        let quest7 = prompt("Как называлась самая первая? 1-Эффект бабушки  2-Футбол 3-Скамейка  4-ОРЗ  5- Проверка")
+        switch (quest7) {
+            case "1":
+                alert('бабка');
+                break;
+
+            case "2":
+                alert('смеш');
+                break;
+
+            case "3":
+                alert('с кайфом');
+                break;
+
+            case "4":
+                alert('ну такое ');
+                break;
+
+            case "5":
+                alert('нет');
+                break;
+
+            
+
+
+                if (quest7 == "4") {
+                    brat += 1
+                }
+        }
+        let quest8 = prompt(" Что случилось с фантиками Ежика в серии  коллекция 1-разлетелись  2-утонули  3-сгорели  4-пропали  5-не смотрел ")
+        switch (quest8) {
+            case "1":
+                alert('Дас');
+                break;
+
+            case "2":
+                alert('хуево');
+                break;
+
+            case "3":
+                alert('позор');
+                break;
+
+            case "4":
+                alert('пропади');
+                break;
+
+            case "5":
+                alert('чел ты... ');
+                break;
+
+            default:
+                alert("Нет таких значений");
+                if (quest8 == "4") {
+                }
+        }
+        alert("Спасибо за прохождение")
+    
+
+
+
+     </script>
+     <script src="js/main.js"></script>
+</body>
+</html>
